@@ -1,6 +1,7 @@
 <?php
   /**
-   *  csv_to_json: converts supplied csv to a json object.
+   *  csv_to_json: convert supplied csv to a json object, and return the object
+   *               respectively.
    */
 
   function csv_to_json($file) {
