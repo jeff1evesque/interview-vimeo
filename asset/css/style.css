@@ -1,0 +1,14 @@
+/**
+ * style.scss: contains general stylesheet definitions.
+ *
+ * Note: the following syntax selects all classnames [CLASS],
+ *       except the first one:
+ *
+ *           .[CLASS] ~ .[CLASS] { }
+ */
+
+.ajax_loader {
+  background: url('../../asset/img/loading.gif') no-repeat center center transparent;
+  background-size:90px 90px;
+  width:100%; height:100%;
+}
