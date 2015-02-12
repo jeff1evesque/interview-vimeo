@@ -2,8 +2,8 @@
 /**
  *  validator.php: this file iterates over the supplied dataset (using SPL iterator),
  *                 returns a nested array of 'clip_ids' that passed the validation
- *                 criteria, and another nester array of 'clip_ids' that failed
- *                 validation.
+ *                 criteria(s), and another nester array of 'clip_ids' that failed
+ *                 the same validation criteria(s).
  *
  *  The following are the validation criterias:
  *
