@@ -27,7 +27,7 @@ sudo apt-get install php5 libapache2-mod-php5
 sudo apt-get install phpmyadmin
 ```
 
-Note: This project assumes [Ubuntu Server 14.04](http://www.ubuntu.com/download/server) as the operating system. If using another system, adjust the above download requirements.
+**Note:** This project assumes [Ubuntu Server 14.04](http://www.ubuntu.com/download/server) as the operating system. If another system is preferred, simply download the above requirements with respect to the systems *package manager* equivalent.
 
 ## Configuration
 
