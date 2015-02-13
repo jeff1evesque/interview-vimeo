@@ -1,6 +1,18 @@
 interview-vimeo
 ================
 
+This following coding exercise was given to me when I applied for a Software Engineer (Video Player) position at [Vimeo](https://vimeo.com/). When I submitted the code, I had forgotten to write *exceptions* if the sample file could not be read, or if the output file could not be written out.
+
+##Exercise
+
+Your job is to write code that will load in `sample.csv` and analyze the data against the rules listed below. Your code should output the results into two files; `valid.csv` will contain a list of clip_ids's that passed the tests and `invalid.csv` will contain a list of clip_id's that failed the tests. Requirements are to use PHP (You can use Python if you want), utilize the SPL FilterIterator (or any other standard library, for Python), and handle exceptions if a file cannot be read in or written to.
+
+**Rules:**
+
+- The clip must be public (privacy == anybody)
+- The clip must have over 10 likes and over 200 plays
+- The clip title must be under 30 characters
+
 ## Installation
 
 ###Linux Packages
