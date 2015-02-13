@@ -5,7 +5,7 @@ This following coding exercise was given to me when I applied for a *Software En
 
 ##Exercise
 
-Your job is to write code that will load in `sample.csv` and analyze the data against the rules listed below. Your code should output the results into two files; `valid.csv` will contain a list of clip_ids's that passed the tests and `invalid.csv` will contain a list of clip_id's that failed the tests. Requirements are to use PHP (You can use Python if you want), utilize the SPL FilterIterator (or any other standard library, for Python), and handle exceptions if a file cannot be read in or written to.
+Your job is to write code that will load in [`sample.csv`](https://github.com/jeff1evesque/interview-vimeo/blob/master/data/sample.csv) and analyze the data against the rules listed below. Your code should output the results into two files; `valid.csv` will contain a list of clip_ids's that passed the tests and `invalid.csv` will contain a list of clip_id's that failed the tests. Requirements are to use PHP (You can use Python if you want), utilize the SPL FilterIterator (or any other standard library, for Python), and handle exceptions if a file cannot be read in or written to.
 
 **Rules:**
 
