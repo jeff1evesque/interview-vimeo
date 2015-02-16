@@ -1,7 +1,7 @@
 interview-vimeo
 ================
 
-This following coding exercise was given to me when I applied for a *Software Engineer* (Video Player) position at [Vimeo](https://vimeo.com/). When I submitted the code, I had forgotten to write *exception* cases, if the sample file could not be read, or if the output file(s) could not be written out.
+This following coding exercise was given to me when I applied for a *Software Engineer* (Video Player) position at [Vimeo](https://vimeo.com/).
 
 ##Exercise
 
