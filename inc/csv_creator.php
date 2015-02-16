@@ -11,11 +11,14 @@
    */
   function csv_success($data) {
     $fp = fopen('../data/valid.csv', 'w');
-    foreach ( $data as $line ) {
-      $val = explode(",", $line);
-      fputcsv($fp, $val);
+
+    if ($fp) {
+      foreach ( $data as $line ) {
+        $val = explode(",", $line);
+        fputcsv($fp, $val);
+      }
+      fclose($fp);
     }
-    fclose($fp);
   }
 
   /**
@@ -24,11 +27,14 @@
    */
   function csv_failure($data) {
     $fp = fopen('../data/invalid.csv', 'w');
-    foreach ( $data as $line ) {
-      $val = explode(",", $line);
-      fputcsv($fp, $val);
+
+    if ($fp) {
+      foreach ( $data as $line ) {
+        $val = explode(",", $line);
+        fputcsv($fp, $val);
+      }
+      fclose($fp);
     }
-    fclose($fp);
   }
 ?>
 
