@@ -10,7 +10,7 @@
    *              corresponding to clips that did pass validation (validator.php).
    */
   function csv_success($data) {
-    $fp = fopen('data/valid.csv', 'w');
+    $fp = fopen('../data/valid.csv', 'w');
     foreach ( $data as $line ) {
       $val = explode(",", $line);
       fputcsv($fp, $val);
@@ -23,7 +23,7 @@
    *              corresponding to clips that did not pass validation (validator.php).
    */
   function csv_failure($data) {
-    $fp = fopen('data/invalid.csv', 'w');
+    $fp = fopen('../data/invalid.csv', 'w');
     foreach ( $data as $line ) {
       $val = explode(",", $line);
       fputcsv($fp, $val);
