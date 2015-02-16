@@ -1,7 +1,7 @@
 interview-vimeo
 ================
 
-This following coding exercise was given to me when I applied for a *Software Engineer* (Video Player) position at [Vimeo](https://vimeo.com/).
+This [exercise](https://github.com/jeff1evesque/interview-vimeo#exercise) was given to me when I applied for a *Software Engineer* (Video Player) position at [Vimeo](https://vimeo.com/).
 
 ##Exercise
 
