@@ -44,10 +44,12 @@ Then, change the *file permissions* for the entire project by issuing the comman
 
 ```
 cd /var/www/html/
-sudo chown -R jeffrey:sudo interview-vimeo
+sudo chown -R jeffrey:www-data interview-vimeo
 ```
 
 **Note:** change 'jeffrey' to the user account YOU use.
+
+**Note:** changing the *group* permission to `www-data` allows apache2 to write output `data/valid.csv`, and `data/invalid.csv`.
 
 Then, add the *Remote Upstream*, this way we can pull any merged pull-requests:
 
