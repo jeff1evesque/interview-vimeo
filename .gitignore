@@ -1,0 +1,5 @@
+# Ignore and don't commit the following directories
+
+# Ignore and don't commit the following files
+data/valid.csv
+data/invalid.csv
